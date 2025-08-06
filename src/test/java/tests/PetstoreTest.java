@@ -5,6 +5,8 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
 
 import core.BaseTest;
+import models.Pet;
+import models.Store;
 import org.junit.Test;
 
 
@@ -102,7 +104,7 @@ public class PetstoreTest extends BaseTest {
         Pet.Tag tag1 = new Pet.Tag();
 
 
-        pet.setId(24670195d);
+        pet.setId(120);
 //		pet.getCategory().setId(0);
 //		pet.getCategory().setName("categoria teste atualizada");
         pet.setName("Nome atualizado novo");

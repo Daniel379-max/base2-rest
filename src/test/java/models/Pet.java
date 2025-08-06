@@ -1,21 +1,21 @@
-package tests;
+package models;
 
 import java.util.Arrays;
 
 public class Pet {
 
-    private Double id;
+    private int id;
     private Category category;
     private String name;
     private String[] photoUrls;
     private Tag[] tags;
     private String status;
 
-    public Double getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Double id) {
+    public void setId(int id) {
         this.id = id;
     }
 

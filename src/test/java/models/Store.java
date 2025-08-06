@@ -1,4 +1,4 @@
-package tests;
+package models;
 
 public class Store {
 
