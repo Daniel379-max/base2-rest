@@ -17,24 +17,24 @@ bash
 Copiar
 Editar
 src
-├── main
-│    └── java
-│         └── models
-│              ├── Pet.java
-│              ├── Store.java
-│              └── User.java
-│
-└── test
-├── java
-│    └── tests
-│         ├── PetTests.java       # 20 testes
-│         ├── StoreTests.java     # 15 testes
-│         ├── UserTests.java      # 15 testes (com Data-Driven)
-│         └── AuthTests.java      # OAuth2 + Regex
-│
-└── resources
-├── usuarios.xlsx            # 20 linhas para Data-Driven
-└── dog.jpeg                 # Arquivo de upload
+ ├── main
+ │    └── java
+ │         └── models
+ │              ├── Pet.java
+ │              ├── Store.java
+ │              └── User.java
+ │
+ └── test
+      ├── java
+      │    └── tests
+      │         ├── PetTests.java       # 20 testes
+      │         ├── StoreTests.java     # 15 testes
+      │         ├── UserTests.java      # 15 testes (com Data-Driven)
+      │         └── AuthTests.java      # OAuth2 + Regex
+      │
+      └── resources
+           ├── usuarios.xlsx            # 20 linhas para Data-Driven
+           └── dog.jpeg                 # Arquivo de upload
 🛠 Tecnologias e Dependências
 Java 11+
 
@@ -53,13 +53,13 @@ xml
 Copiar
 Editar
 <dependencies>
-<!-- JUnit -->
-<dependency>
-<groupId>junit</groupId>
-<artifactId>junit</artifactId>
-<version>4.13.2</version>
-<scope>test</scope>
-</dependency>
+    <!-- JUnit -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+        <scope>test</scope>
+    </dependency>
 
     <!-- RestAssured -->
     <dependency>
@@ -136,5 +136,4 @@ Autenticação OAuth2 demonstrada → ✔
 Validação com Regex → ✔
 
 🏆 Resultado
-O projeto cumpre 100% dos requisitos do desafio, com boa organização, logs detalhados, reuso de código via BaseTest e planilha Excel para Data-Driven Testing.
-
+O projeto cumpre 100% dos requisitos do desafio, com boa organização, logs detalhados, reuso de código via BaseTest e planilha Excel para Data-Driven Testing
